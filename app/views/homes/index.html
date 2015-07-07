@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Language Translatoin</title>
+	<link rel="stylesheet" href="css/main.css"></style>
+</head>
+<body onload="CLIENT.getLocaleValues()">
+   	
+
+    <div class="main-card">
+        <div>
+            <div id="locales" class="button-wrapper ">
+            </div>
+        </div>
+        <div class="clearset"></div>
+    <div>
+        <div id='withJquery' style="float:left;width:48%" >
+            <h1>With Jquery</h1>
+            <h3 data-i18n="date.order.2"></h3>
+            <hr/>
+            <ul class="day-list">
+                <li><a href="#" data-i18n="date.day_names.0"></a></li>
+                <li><a href="#" data-i18n="date.day_names.1"></a></li>
+                <li><a href="#" data-i18n="date.day_names.2"></a></li>
+                <li><a href="#" data-i18n="date.day_names.3"></a></li>
+                <li><a href="#" data-i18n="date.day_names.4"></a></li>
+                <li><a href="#" data-i18n="date.day_names.5"></a></li>
+                <li><a href="#" data-i18n="date.day_names.6"></a></li>
+            </ul>
+
+            <h3 data-i18n="date.order.1"></h3>
+            <hr/>
+            <ul class="month-list">
+                <li><a href="#" data-i18n="date.month_names.1"></a></li>
+                <li><a href="#" data-i18n="date.month_names.2"></a></li>
+                <li><a href="#" data-i18n="date.month_names.3"></a></li>
+                <li><a href="#" data-i18n="date.month_names.4"></a></li>
+                <li><a href="#" data-i18n="date.month_names.5"></a></li>
+                <li><a href="#" data-i18n="date.month_names.6"></a></li>
+                <li><a href="#" data-i18n="date.month_names.7"></a></li>
+                <li><a href="#" data-i18n="date.month_names.8"></a></li>
+                <li><a href="#" data-i18n="date.month_names.9"></a></li>
+                <li><a href="#" data-i18n="date.month_names.10"></a></li>
+                <li><a href="#" data-i18n="date.month_names.11"></a></li>
+                <li><a href="#" data-i18n="date.month_names.12"></a></li>
+            </ul>
+
+            <h3>Errors</h3>
+            <hr/>
+
+            <ul class="errors-list">
+                <li><a href="#" data-i18n="errors.messages.accepted"></a></li>
+                <li><a href="#" data-i18n="errors.messages.blank"></a></li>
+                <li><a href="#" data-i18n="errors.messages.confirmation"></a></li>
+                <li><a href="#" data-i18n="errors.messages.empty"></a></li>
+            </ul>
+        </div>
+
+        <div id='withOutJquery' style="float:right;width:48%" >
+            <h1>Without Jquery</h1>
+            <h3 id="date.order.2"></h3>
+            <hr/>
+            <ul class="day-list">
+                <li><a href="#" id="date.day_names.0"></a></li>
+                <li><a href="#" id="date.day_names.1"></a></li>
+                <li><a href="#" id="date.day_names.2"></a></li>
+                <li><a href="#" id="date.day_names.3"></a></li>
+                <li><a href="#" id="date.day_names.4"></a></li>
+                <li><a href="#" id="date.day_names.5"></a></li>
+                <li><a href="#" id="date.day_names.6"></a></li>
+            </ul>
+
+            <h3 id="date.order.1"></h3>
+            <hr/>
+            <ul class="month-list">
+                <li><a href="#" id="date.month_names.1"></a></li>
+                <li><a href="#" id="date.month_names.2"></a></li>
+                <li><a href="#" id="date.month_names.3"></a></li>
+                <li><a href="#" id="date.month_names.4"></a></li>
+                <li><a href="#" id="date.month_names.5"></a></li>
+                <li><a href="#" id="date.month_names.6"></a></li>
+                <li><a href="#" id="date.month_names.7"></a></li>
+                <li><a href="#" id="date.month_names.8"></a></li>
+                <li><a href="#" id="date.month_names.9"></a></li>
+                <li><a href="#" id="date.month_names.10"></a></li>
+                <li><a href="#" id="date.month_names.11"></a></li>
+                <li><a href="#" id="date.month_names.12"></a></li>
+            </ul>
+
+            <h3>Errors</h3>
+            <hr/>
+
+            <ul class="errors-list">
+                <li><a href="#" id="errors.messages.accepted"></a></li>
+                <li><a href="#" id="errors.messages.blank"></a></li>
+                <li><a href="#" id="errors.messages.confirmation"></a></li>
+                <li><a href="#" id="errors.messages.empty"></a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+
+	
+    <script src="js/lib/jquery-1.11.3.min.js" type="text/javascript"></script>
+	<script src="js/lib/i18next-1.10.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/main.js" ></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<h1>Successfully added !!</h1>
+<ul>
+<% @translations.keys.each do |key| %>
+	<% if key != "rtSession-42" %>
+		<li><%= key %>: <%= @translations[key] %></li>
+	<% end %>
+<% end %>
+</ul>

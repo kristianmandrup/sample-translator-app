@@ -114,6 +114,8 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
+    realtime (0.0.12)
+      rails (>= 4.0)
     redis (3.2.1)
     rest-client (1.8.0)
       http-cookie (>= 1.0.2, < 2.0)
@@ -158,6 +160,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jquery-rails
   rails (= 4.2.1)
+  realtime
   redis
   sass-rails (~> 5.0)
   translator_manager!

@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "locale": "en"
+        },
+        {
+            "locale": "tr"
+        },
+        {
+            "locale": "fr"
+        },
+        {
+            "locale": "hi"
+        },
+        {
+            "locale": "ja"
+        },
+        {
+            "locale": "mk"
+        },
+        {
+            "locale": "lo"
+        },
+        {
+            "locale": "ro"
+        },
+        {
+            "locale": "th"
+        },
+        {
+            "locale": "uk"
+        }
+    ]
+}
