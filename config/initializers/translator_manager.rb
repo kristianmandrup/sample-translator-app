@@ -17,7 +17,7 @@ TranslatorManager.setup do |config|
     # translator_config.output_stream = nil
 
     # ==> Localeapp Configuration
-    translator_config.localeapp_api_key = ENV['LOCALEAPP_API_KEY'].presence || 'vB46orjZwYjNMmCRpkWAByXoOo7jPQ1mpZNUcm1HWjdzbQquNp'
+    translator_config.localeapp_api_key = ENV['LOCALEAPP_API_KEY'].presence
     # It is the directory where localeapp will sync all the locales files.
     translator_config.data_directory = Rails.root.join('config', 'translator_locales')
   end

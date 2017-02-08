@@ -28,6 +28,17 @@ Execute from rails console
 
 * Configuration
 
+See initializers
+- `i18n_backend.rb`
+- `redis.db`
+- `translator_manager.rb`
+
+The `translator_manager` initializer expects the environment variable `LOCALEAPP_API_KEY` to contain the localeapp key.
+
+```
+translator_config.localeapp_api_key = ENV['LOCALEAPP_API_KEY'].presence
+```
+
 * Database creation
 
 * Database initialization
